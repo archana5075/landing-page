@@ -1,0 +1,50 @@
+body {
+  background-color: #080c20;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.logo {
+  margin-left: 242px;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+
+.middle-box {
+  background: url(assets/bg-hero-squiggle.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  text-align: center;
+  margin: 25px;
+  padding: 50px;
+}
+
+.middle-box > img {
+  align-items: center;
+  padding: 10px;
+}
+
+.middle-box .love {
+  color: aqua;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  padding: 70px;
+}
+
+.pricing-plan-header,
+.pricing-plan-header-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
