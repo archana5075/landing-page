@@ -38,13 +38,147 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 30px;
-  padding: 70px;
 }
 
-.pricing-plan-header,
-.pricing-plan-header-text {
+.buttons > div > p {
+  color: #4a5f81;
+  text-align: justify;
+  margin: 20px;
+  width: 250px;
+}
+
+.buttons > div > h3 {
+  margin: 20px;
+}
+.button-box-up {
+  margin-top: -40px;
+}
+
+.buttons .button-box-up > img,
+.button-box-down > img {
+  background-color: #093f68;
+  border-radius: 35px;
+  margin: 40px;
+  padding: 45px;
+  width: 100px;
+  height: 100px;
+}
+
+.pricing-plan-container,
+.pricing-plan-main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.pricing-plan-container > div {
+  margin: 30px;
+  padding: 20px;
+  text-align: center;
+  width: 40%;
+}
+.pricing-plan-container > div > p {
+  color: #4a5f81;
+}
+
+.pricing-plan-main > div {
+  margin: 15px;
+}
+.pricing-plan-box-left {
+  background-color: #093f68;
+  color: white;
+  border-radius: 5px;
+  padding: 30px;
+  width: 400px;
+  height: 400px;
+}
+
+.pricing-header-left > p {
+  color: lightgrey;
+  font-weight: lighter !important;
+}
+
+.pricing-header-left > ul li::before {
+  color: #3ee9e5;
+}
+
+.pricing-plan-box-left .pricing-logo {
+  margin-top: -50px;
+}
+
+.pricing-plan-box-right {
+  background-color: #3ee9e5;
+  color: #080c20;
+  border-radius: 5px;
+  padding: 30px;
+  width: 400px;
+  height: 450px;
+}
+
+.pricing-plan-box-right .pricing-logo {
+  margin-top: -70px;
+}
+
+.pricing-plan-box-right .price {
+  font-size: xx-large;
+}
+
+.pricing-plan-box-right .price > sup {
+  font-size: small;
+  font-weight: lighter;
+}
+
+ul {
+  list-style: none;
+  line-height: 35px;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+
+ul li:before {
+  content: "✓";
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  padding: 50px;
+  width: 100%;
+}
+
+.email-address-box {
+  display: flex;
+}
+
+.email-address-box .email-address {
+  background-color: #093f68;
+  color: #4a5f81;
+  font-weight: bold;
+  padding: 20px;
+  height: 10px;
+  width: 260px;
+  margin-right: 30px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: small;
+  outline: none;
+  text-decoration: none;
+}
+
+.email-address-box .btn-notified {
+  background-color: #3ee9e5;
+  color: #080c20;
+  border-radius: 35px;
+  height: 1px;
+  width: 160px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  text-decoration: none;
 }
