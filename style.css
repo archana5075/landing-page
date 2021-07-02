@@ -148,6 +148,7 @@ ul li:before {
   margin-top: 60px;
   padding: 50px;
   width: 100%;
+  background: url(assets/bg-footer-squiggle.svg);
 }
 
 .email-address-box {
